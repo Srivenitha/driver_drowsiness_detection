@@ -57,7 +57,7 @@ for folder in class_names:
 
 # if os.path.exists(new_image_path):
 #     pred_class, confidence = predict_image(new_image_path)
-#     print("\n🧠 New Image Test:")
+#     print("\n New Image Test:")
 #     print(f"Predicted Class: {pred_class}")
 #     print(f"Confidence: {np.max(confidence)*100:.2f}%")
 
@@ -68,7 +68,8 @@ for folder in class_names:
 #     plt.axis("off")
 #     plt.show()
 # else:
-#     print("❌ Image not found:", new_image_path)
+#     print(" Image not found:", new_image_path)
+
 
 
 
